@@ -1,24 +1,31 @@
-import { Component } from 'react'
-import { View, Text } from '@tarojs/components'
-import './index.css'
+import { Component } from 'react';
+import { persistInterceptor } from 'foca-taro-storage';
+import { View } from '@tarojs/components';
+import './index.css';
+import Counter from './counter';
 
-export default class Index extends Component {
+class Index extends Component {
+  componentWillMount() {}
 
-  componentWillMount () { }
+  componentDidMount() {}
 
-  componentDidMount () { }
+  componentWillUnmount() {}
 
-  componentWillUnmount () { }
+  componentDidShow() {}
 
-  componentDidShow () { }
+  componentDidHide() {}
 
-  componentDidHide () { }
-
-  render () {
+  render() {
     return (
-      <View className='index'>
-        <Text>Hello world!</Text>
+      <View className="index">
+        <Counter />
       </View>
-    )
+    );
   }
 }
+
+/**
+ * 设置了持久化时，首页和分享给用户的页面都需要使用persistInterceptor高阶组件
+ * @link https://github.com/foca-js/foca-taro-storage#%E8%B7%AF%E7%94%B1
+ */
+export default persistInterceptor(Index);

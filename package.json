@@ -1,6 +1,5 @@
 {
   "name": "foca-demo-taro",
-  "version": "1.0.0",
   "private": true,
   "description": "Foca状态管理配合Taro使用案例",
   "templateInfo": {
@@ -33,32 +32,36 @@
     "Android >= 4.1",
     "ios >= 8"
   ],
-  "author": "",
   "dependencies": {
     "@babel/runtime": "^7.7.7",
     "@tarojs/components": "3.4.9",
-    "@tarojs/runtime": "3.4.9",
-    "@tarojs/taro": "3.4.9",
     "@tarojs/plugin-framework-react": "3.4.9",
     "@tarojs/react": "3.4.9",
-    "react-dom": "^17.0.0",
-    "react": "^17.0.0"
+    "@tarojs/runtime": "3.4.9",
+    "@tarojs/taro": "3.4.9",
+    "foca": "^0.11.6",
+    "foca-taro-storage": "^0.1.4",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
   },
   "devDependencies": {
-    "@types/webpack-env": "^1.13.6",
-    "@types/react": "^17.0.2",
-    "@tarojs/mini-runner": "3.4.9",
     "@babel/core": "^7.8.0",
+    "@tarojs/mini-runner": "3.4.9",
     "@tarojs/webpack-runner": "3.4.9",
-    "babel-preset-taro": "3.4.9",
-    "eslint-config-taro": "3.4.9",
-    "eslint": "^8.12.0",
-    "eslint-plugin-react": "^7.8.2",
-    "eslint-plugin-import": "^2.12.0",
-    "eslint-plugin-react-hooks": "^4.2.0",
-    "stylelint": "^14.4.0",
-    "@typescript-eslint/parser": "^5.20.0",
+    "@types/react": "^17.0.2",
+    "@types/redux-logger": "^3.0.9",
+    "@types/webpack-env": "^1.13.6",
     "@typescript-eslint/eslint-plugin": "^5.20.0",
+    "@typescript-eslint/parser": "^5.20.0",
+    "babel-preset-taro": "3.4.9",
+    "eslint": "^8.12.0",
+    "eslint-config-taro": "3.4.9",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-react": "^7.8.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.6.2",
+    "redux-logger": "^3.0.6",
+    "stylelint": "^14.4.0",
     "typescript": "^4.1.0"
   }
 }
