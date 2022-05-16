@@ -13,11 +13,7 @@ class App extends Component {
   componentDidCatchError() {}
 
   render() {
-    /**
-     * 注意，设置了持久化时，需要这样写 () => this.props.children
-     * @link https://github.com/foca-js/foca-taro-storage#%E8%B7%AF%E7%94%B1
-     */
-    return <FocaProvider>{() => this.props.children}</FocaProvider>;
+    return <FocaProvider>{this.props.children}</FocaProvider>;
   }
 }
 

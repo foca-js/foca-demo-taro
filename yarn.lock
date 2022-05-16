@@ -4558,12 +4558,10 @@ flush-write-stream@^1.0.0:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
 
-foca-taro-storage@^0.1.4:
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/foca-taro-storage/-/foca-taro-storage-0.1.4.tgz#a4f76eea30538d8662f1b0f1cb427b371c67afd2"
-  integrity sha512-SNb08w5r2arhPZ1pHh696wIki0wMK7zYgGsq+wK4AVmYnofgnziwA5/fG1kirOP23KEJktZIvZv3MNGjJH2h6Q==
-  dependencies:
-    hoist-non-react-statics "^3.3.2"
+foca-taro-storage@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/foca-taro-storage/-/foca-taro-storage-1.0.0.tgz#5d108db809f6bd5f9e7dea9727e4224d17967f89"
+  integrity sha512-R84ucYPKjn9d0va6bIarUeMsHOpnrK0C0JF+wBQQ8FFYhXgnv6ev0P/lCt04ij4Lv034lFDq+e/H6gozoRaeeA==
 
 foca@^0.11.6:
   version "0.11.6"

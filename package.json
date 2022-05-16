@@ -40,7 +40,7 @@
     "@tarojs/runtime": "3.4.9",
     "@tarojs/taro": "3.4.9",
     "foca": "^0.11.6",
-    "foca-taro-storage": "^0.1.4",
+    "foca-taro-storage": "^1.0.0",
     "react": "^17.0.0",
     "react-dom": "^17.0.0"
   },

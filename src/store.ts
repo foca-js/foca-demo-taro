@@ -30,7 +30,5 @@ store.init({
 });
 
 if (module.hot) {
-  module.hot.accept(() => {
-    console.log('Hot updated: store');
-  });
+  module.hot.accept();
 }
