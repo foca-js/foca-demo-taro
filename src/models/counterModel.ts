@@ -2,7 +2,7 @@ import { defineModel } from 'foca';
 
 export const counterModel = defineModel('counter', {
   initialState: { count: 0 },
-  actions: {
+  reducers: {
     plus(state, value: number, scale: number = 1) {
       state.count += value * scale;
     },

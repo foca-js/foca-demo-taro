@@ -4,8 +4,6 @@ import './index.css';
 import Counter from './counter';
 
 export default class Index extends Component {
-  componentWillMount() {}
-
   componentDidMount() {}
 
   componentWillUnmount() {}
